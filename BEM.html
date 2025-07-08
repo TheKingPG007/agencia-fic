@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agência Criativa Web</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="header__logo">
+      <img src="fic.webp" alt="Agência Criativa Web"
+           sizes="(max-width: 600px) 480px, (max-width: 900px) 800px, 1200px">
+    </div>
+    <nav class="header__nav">
+      <ul class="nav__menu">
+        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+        <li class="nav__item"><a href="#sobre" class="nav__link">Sobre Nós</a></li>
+        <li class="nav__item"><a href="#servicos" class="nav__link">Serviços</a></li>
+        <li class="nav__item"><a href="#depoimentos" class="nav__link">Depoimentos</a></li>
+        <li class="nav__item"><a href="#contato" class="nav__link">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section id="home" class="hero">
+      <h1 class="hero__title">Bem-vindo à Agência Criativa Web</h1>
+      <p class="hero__subtitle">Design moderno e soluções digitais inteligentes para seu negócio.</p>
+    </section>
+
+    <section id="sobre" class="about">
+      <h2 class="section-title">Sobre Nós</h2>
+      <p class="about__text">Somos apaixonados por design, inovação e criar experiências digitais únicas. Valorizamos a criatividade, excelência e a parceria com nossos clientes.</p>
+    </section>
+
+    <section id="servicos" class="services">
+      <h2 class="section-title">Serviços</h2>
+      <div class="services__grid">
+        <div class="services__item">Design Gráfico</div>
+        <div class="services__item">Desenvolvimento Web</div>
+        <div class="services__item">Branding</div>
+        <div class="services__item">UI/UX Design</div>
+      </div>
+    </section>
+
+    <section id="depoimentos" class="testimonials">
+      <h2 class="section-title">Depoimentos</h2>
+      <blockquote class="testimonials__quote">"Trabalho excelente, superaram nossas expectativas!" – Cliente Fictício A</blockquote>
+      <blockquote class="testimonials__quote">"Atendimento incrível e resultados impressionantes." – Cliente Fictício B</blockquote>
+    </section>
+
+    <section id="contato" class="contact">
+      <h2 class="section-title">Contato</h2>
+      <p class="contact__info">Endereço: Rua Criativa, 123 – São Paulo, SP</p>
+      <p class="contact__info">Telefone: (11) 99999-9999</p>
+      <p class="contact__info">Email: contato@criativaweb.com</p>
+
+      <form class="contact__form">
+        <input type="text" class="contact__input" placeholder="Nome" required>
+        <input type="email" class="contact__input" placeholder="E-mail" required>
+        <textarea class="contact__textarea" placeholder="Mensagem" required></textarea>
+        <button type="submit" class="contact__button">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__text">&copy; 2025 Agência Criativa Web</p>
+  </footer>
+
+</body>
+</html>
